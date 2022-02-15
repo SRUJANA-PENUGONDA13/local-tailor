@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+  .nav-mid-sec {
+    display: none;
+  }
+  .nav-container {
+    align-items: center;
+  }
+  .media-image {
+    width: 100%;
+    height: 20rem;
+  }
+  .shp-now-btn {
+    top: 12rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .nav-mobile-mid-sec,
+  .media-mobile-content {
+    display: none;
+  }
+}

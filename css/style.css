@@ -1,0 +1,6 @@
+@import url("https://cache-ui.netlify.app/css/style.css");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("./utils/vars.css");
+@import url("./components/home.css");
+@import url("./utils/mediaQueries.css");
+@import url("./utils/genericSelectors.css");

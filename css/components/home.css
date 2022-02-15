@@ -1,0 +1,125 @@
+h1 {
+  padding: 0px;
+  margin: 0px;
+}
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary--color);
+  padding: 5px;
+  position: sticky;
+}
+.nav-body {
+  background-color: var(--primary--color);
+  padding: 5px 5rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-right-sec {
+  margin: 0px;
+}
+.brand-name {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+}
+.badge-pos-top-right {
+  top: -1.3rem;
+  right: -0.7rem;
+}
+.nav-mid-sec,
+.nav-mobile-mid-sec {
+  border: 1px solid var(--nav--input--border);
+  height: fit-content;
+  padding: 4px;
+  border-radius: 10px;
+  background-color: var(--text--primary--color);
+  width: 20rem;
+}
+.nav-mobile-mid-sec {
+  width: 90%;
+  padding: 10px;
+}
+.search-icon {
+  color: var(--primary--color);
+}
+.search-bar {
+  outline: none;
+  border: none;
+}
+.main-container {
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.media {
+  position: relative;
+  align-items: center;
+}
+.media-image {
+  width: 100%;
+  height: 30rem;
+}
+.media-content {
+  font-size: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--primary--color);
+}
+.shp-now-btn {
+  position: relative;
+  font-size: 1.2rem;
+  top: 15rem;
+  background-color: var(--primary--color);
+  padding: 10px;
+  border-radius: 10px;
+}
+.shp-now-btn a {
+  color: var(--text--primary--color);
+}
+.title {
+  font-size: larger;
+}
+.featured-categories {
+  align-items: center;
+}
+.categories {
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.categorie {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  aspect-ratio: 1/1;
+  text-align: center;
+  padding-top: 3.5rem;
+  border: 1px solid black;
+  color: var(--text--primary--color);
+  background-color: var(--primary--color);
+}
+
+.footer-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+  height: 5rem;
+  color: var(--text--primary--color);
+  padding: 10px;
+  background-color: var(--primary--color);
+}
+footer ul {
+  list-style: none;
+}
+footer li {
+  display: inline;
+}
+footer li a i {
+  color: var(--text--primary--color);
+  font-size: 1.5rem;
+  padding: 0px 1.5rem;
+}

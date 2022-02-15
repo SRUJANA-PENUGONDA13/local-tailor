@@ -18,6 +18,9 @@ h1 {
 .nav-right-sec {
   margin: 0px;
 }
+.nav-right-sec a {
+  color: var(--text--primary--color);
+}
 .brand-name {
   font-family: "Dancing Script", cursive;
   font-size: 2.5rem;

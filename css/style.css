@@ -4,3 +4,5 @@
 @import url("./components/home.css");
 @import url("./utils/mediaQueries.css");
 @import url("./utils/genericSelectors.css");
+@import url("./components/login.css");
+@import url("./components/signup.css");

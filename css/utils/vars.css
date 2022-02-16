@@ -1,6 +1,6 @@
 :root {
   --primary--color: #6d4930;
-  --text--primary--color: white;
-  --nav--input--border: black;
-  --centered--box-color: white;
+  --text--primary--color: #ffffff;
+  --nav--input--border: #000000;
+  --centered--box-color: #ffffff;
 }

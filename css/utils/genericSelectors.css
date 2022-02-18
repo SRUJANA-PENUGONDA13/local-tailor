@@ -1,3 +1,6 @@
+body {
+  min-height: 100vh;
+}
 .text-decoration-none {
   text-decoration: none;
 }
@@ -5,7 +8,6 @@
 .flex-center-box {
   align-items: center;
   justify-content: center;
-  height: 80vh;
   /* background-color: #7e5330; #7c431b #7e5330 */
 }
 .centered-box {

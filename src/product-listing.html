@@ -65,40 +65,308 @@
         />
       </div>
     </nav>
-    <main class="main-container"></main>
-    <footer>
-      <div class="footer-sec">
-        <h3>© | 2021 | Srujana Penugonda</h3>
-        <ul>
-          <li>
-            <a
-              class="text-decoration-none"
-              href="https://github.com/SRUJANA-PENUGONDA13"
-              target="_blank"
-            >
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              class="text-decoration-none"
-              href="https://www.linkedin.com/in/srujana-penugonda-49b9b9148"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a
-              class="text-decoration-none"
-              href="https://twitter.com/Srujana_PS?t=xOANviVXChpqr8Jmxz9vfg&s=09"
-              target="_blank"
-            >
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        </ul>
+    <main class="product-container flex-dir-row">
+      <div class="left-nav flex-dir-col">
+        <div class="filter-header flex-dir-row">
+          <h2>Filters</h2>
+          <h3>Clear</h3>
+        </div>
+        <div class="price-filter flex-dir-col">
+          <span class="text-medium">Price</span>
+          <input type="range" min="1" max="100" value="50" />
+          <div class="slider-number flex-dir-row">
+            <span>500</span>
+            <span>1000</span>
+            <span>1500</span>
+          </div>
+        </div>
+        <div class="category-filter flex-dir-col">
+          <span class="text-medium">Tailors</span>
+          <div class="tailor-container flex-dir-col">
+            <div class="tailor">
+              <input type="checkbox" id="tailor-1" name="tailor-1" value="" />
+              <label for="tailor-1">Lakshmi</label>
+            </div>
+            <div class="tailor">
+              <input type="checkbox" id="tailor-2" name="tailor-2" value="" />
+              <label for="tailor-2">Rachana</label>
+            </div>
+            <div class="tailor">
+              <input type="checkbox" id="tailor-3" name="tailor-3" value="" />
+              <label for="tailor-3">Manas</label>
+            </div>
+          </div>
+        </div>
+        <div class="category-filter flex-dir-col">
+          <span class="text-medium">Category</span>
+          <div class="category-container flex-dir-col">
+            <div>
+              <input type="checkbox" id="women" name="women" value="" />
+              <label for="women">Women</label>
+            </div>
+            <div>
+              <input type="checkbox" id="kids" name="kids" value="" />
+              <label for="kids">Kids</label>
+            </div>
+          </div>
+        </div>
+        <div class="rating-filter flex-dir-col">
+          <span class="text-medium">Rating</span>
+          <div class="rating-container">
+            <div>
+              <input type="radio" id="max-rating" name="rating" value="" />
+              <label for="max-rating">4 Stars & above</label>
+            </div>
+            <div>
+              <input type="radio" id="medium-rating" name="rating" value="" />
+              <label for="medium-rating">3 stars & above</label>
+            </div>
+            <div>
+              <input type="radio" id="min-rating" name="rating" value="" />
+              <label for="min-rating">2 stars & above</label>
+            </div>
+          </div>
+        </div>
+        <button class="btn filter-btn" onclick="closeFilters()">Filter</button>
       </div>
-    </footer>
+      <div class="main-body flex-dir-col">
+        <button class="btn filters-btn primary-btn" onclick="openFilters()">
+          filters
+        </button>
+        <h2 class="products-header">Showing All Products</h2>
+        <div class="card-container">
+          <div class="card badge-card">
+            <div class="img-content">
+              <p class="text-badge">Trending</p>
+              <button class="heart-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </button>
+              <img
+                class="item-img"
+                src="../assets/1.jpeg"
+                alt="Card Header Image"
+              />
+            </div>
+            <div class="card-content">
+              <h2 class="item-name">Fancy Dress</h2>
+              <!-- <p class="item-desc">
+                boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health Monitor
+                and 14 sports mode.
+              </p> -->
+              <div class="prices">
+                <span class="price"><b>₹1000</b></span>
+                <span class="initial-price">1500</span>
+                <span class="discount"><b>( 33% )</b></span>
+              </div>
+            </div>
+            <button class="btn primary-btn add-to-cart">Add to cart</button>
+          </div>
+          <div class="card badge-card">
+            <div class="img-content">
+              <p class="text-badge">Trending</p>
+              <img
+                class="item-img"
+                src="../assets/6.jpeg"
+                alt="Card Header Image"
+              />
+              <button class="heart-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </button>
+            </div>
+            <div class="card-content">
+              <h2 class="item-name">Traditional Dress</h2>
+              <!-- <p class="item-desc">
+                boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health Monitor
+                and 14 sports mode.
+              </p> -->
+              <div class="prices">
+                <span class="price"><b>₹1000</b></span>
+                <span class="initial-price">1500</span>
+                <span class="discount"><b>( 33% )</b></span>
+              </div>
+            </div>
+            <button class="btn primary-btn add-to-cart">Add to cart</button>
+          </div>
+          <div class="card badge-card">
+            <div class="img-content">
+              <p class="text-badge">Trending</p>
+              <img
+                class="item-img"
+                src="../assets/9.jpeg"
+                alt="Card Header Image"
+              />
+              <button class="heart-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </button>
+            </div>
+            <div class="card-content">
+              <h2 class="item-name">Fancy Dress</h2>
+              <!-- <p class="item-desc">
+                boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health Monitor
+                and 14 sports mode.
+              </p> -->
+              <div class="prices">
+                <span class="price"><b>₹1000</b></span>
+                <span class="initial-price">1500</span>
+                <span class="discount"><b>( 33% )</b></span>
+              </div>
+            </div>
+            <button class="btn primary-btn add-to-cart">Add to cart</button>
+          </div>
+          <div class="card badge-card">
+            <div class="img-content">
+              <img
+                class="item-img"
+                src="../assets/12.jpeg"
+                alt="Card Header Image"
+              />
+              <button class="heart-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </button>
+            </div>
+            <div class="card-content">
+              <h2 class="item-name">Fancy Dress</h2>
+              <!-- <p class="item-desc">
+                boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health Monitor
+                and 14 sports mode.
+              </p> -->
+              <div class="prices">
+                <span class="price"><b>₹1000</b></span>
+                <span class="initial-price">1500</span>
+                <span class="discount"><b>( 33% )</b></span>
+              </div>
+            </div>
+            <button class="btn primary-btn add-to-cart">Add to cart</button>
+          </div>
+          <div class="card badge-card">
+            <div class="img-content">
+              <img
+                class="item-img"
+                src="../assets/11.jpeg"
+                alt="Card Header Image"
+              />
+              <button class="heart-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </button>
+            </div>
+            <div class="card-content">
+              <h2 class="item-name">Traditional Dress</h2>
+              <!-- <p class="item-desc">
+                boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health Monitor
+                and 14 sports mode.
+              </p> -->
+              <div class="prices">
+                <span class="price"><b>₹1000</b></span>
+                <span class="initial-price">1500</span>
+                <span class="discount"><b>( 33% )</b></span>
+              </div>
+            </div>
+            <button class="btn primary-btn add-to-cart">Add to cart</button>
+          </div>
+          <div class="card badge-card">
+            <div class="img-content">
+              <img
+                class="item-img"
+                src="../assets/7.jpeg"
+                alt="Card Header Image"
+              />
+              <button class="heart-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </button>
+            </div>
+            <div class="card-content">
+              <h2 class="item-name">Fancy Dress</h2>
+              <!-- <p class="item-desc">
+                boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health Monitor
+                and 14 sports mode.
+              </p> -->
+              <div class="prices">
+                <span class="price"><b>₹1000</b></span>
+                <span class="initial-price">1500</span>
+                <span class="discount"><b>( 33% )</b></span>
+              </div>
+            </div>
+            <button class="btn primary-btn add-to-cart">Add to cart</button>
+          </div>
+          <div class="card badge-card">
+            <div class="img-content">
+              <img
+                class="item-img"
+                src="../assets/2.jpeg"
+                alt="Card Header Image"
+              />
+              <button class="heart-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </button>
+            </div>
+            <div class="card-content">
+              <h2 class="item-name">Fancy Dress</h2>
+              <!-- <p class="item-desc">
+                boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health Monitor
+                and 14 sports mode.
+              </p> -->
+              <div class="prices">
+                <span class="price"><b>₹1000</b></span>
+                <span class="initial-price">1500</span>
+                <span class="discount"><b>( 33% )</b></span>
+              </div>
+            </div>
+            <button class="btn primary-btn add-to-cart">Add to cart</button>
+          </div>
+          <div class="card badge-card">
+            <div class="img-content">
+              <img
+                class="item-img"
+                src="../assets/3.jpeg"
+                alt="Card Header Image"
+              />
+              <button class="heart-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </button>
+            </div>
+            <div class="card-content">
+              <h2 class="item-name">Traditional Dress</h2>
+              <!-- <p class="item-desc">
+                boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health Monitor
+                and 14 sports mode.
+              </p> -->
+              <div class="prices">
+                <span class="price"><b>₹1000</b></span>
+                <span class="initial-price">1500</span>
+                <span class="discount"><b>( 33% )</b></span>
+              </div>
+            </div>
+            <button class="btn primary-btn add-to-cart">Add to cart</button>
+          </div>
+          <div class="card badge-card">
+            <div class="img-content">
+              <img
+                class="item-img"
+                src="../assets/5.jpeg"
+                alt="Card Header Image"
+              />
+              <button class="heart-btn">
+                <i class="fas fa-heart fa-2x"></i>
+              </button>
+            </div>
+            <div class="card-content">
+              <h2 class="item-name">Traditional Dress</h2>
+              <!-- <p class="item-desc">
+                boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health Monitor
+                and 14 sports mode.
+              </p> -->
+              <div class="prices">
+                <span class="price"><b>₹1000</b></span>
+                <span class="initial-price">1500</span>
+                <span class="discount"><b>( 33% )</b></span>
+              </div>
+            </div>
+            <button class="btn primary-btn add-to-cart">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../js/product-listing.js"></script>
   </body>
 </html>

@@ -48,6 +48,7 @@
 .search-bar {
   outline: none;
   border: none;
+  font-size: 0.9rem;
 }
 .main-container {
   align-items: center;

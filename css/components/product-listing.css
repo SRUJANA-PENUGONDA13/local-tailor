@@ -24,7 +24,7 @@
   justify-content: space-between;
 }
 
-.main-body {
+.product-body {
   width: 100%;
 }
 
@@ -51,7 +51,7 @@
   grid-gap: 2rem;
 }
 
-.item-img {
+.product-body .item-img {
   height: 25rem;
 }
 

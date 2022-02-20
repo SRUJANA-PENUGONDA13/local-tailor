@@ -1,10 +1,12 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
 @import url("https://cache-ui.netlify.app/css/style.css");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("./utils/vars.css");
 @import url("./components/home.css");
-@import url("./utils/mediaQueries.css");
 @import url("./utils/genericSelectors.css");
 @import url("./components/login.css");
 @import url("./components/signup.css");
 @import url("./components/product-listing.css");
 @import url("./components/cart.css");
+@import url("./components/wishlist.css");
+@import url("./utils/mediaQueries.css");

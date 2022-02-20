@@ -13,12 +13,6 @@
       content="Awesome, budget friendly men, women and kids wear by best skilled local tailors"
     />
     <meta name="keywords" content="HTML, CSS, UI" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Local Tailor</title>
   </head>
@@ -38,25 +32,19 @@
             type="text"
             class="search-bar"
             placeholder="Search for product"
-            text-large
           />
         </div>
         <div class="nav-right-sec flex-dir-row">
           <a class="text-decoration-none" href="./src/login.html"
             ><i class="far fa-user" aria-hidden="true"></i
           ></a>
-          <div class="badge">
-            <a>
-              <i class="far fa-heart"></i>
-              <span class="circle badge-pos-top-right"><b>4</b></span>
-            </a>
+          <a
+          class="explore-link text-decoration-none"
+          href="./src/product-listing.html"
+          >Explore</a
+        >
           </div>
-          <div class="badge">
-            <a>
-              <i class="fas fa-shopping-cart"></i>
-              <span class="circle badge-pos-top-right"><b>4</b></span>
-            </a>
-          </div>
+          
         </div>
       </div>
       <div class="nav-mobile-mid-sec">
@@ -65,7 +53,6 @@
           type="text"
           class="search-bar"
           placeholder="Search for product"
-          text-large
         />
       </div>
     </nav>
@@ -91,9 +78,9 @@
           Below are the trending featured products of Local Tailor
         </p>
         <div class="categories flex-dir-row">
-          <p class="categorie">Men</p>
-          <p class="categorie">Women</p>
-          <p class="categorie">Children</p>
+          <p class="categorie"><a class="text-decoration-none" href="./src/product-listing.html">Men</a></p>
+          <p class="categorie"><a class="text-decoration-none" href="./src/product-listing.html">Women</a></p>
+          <p class="categorie"><a class="text-decoration-none" href="./src/product-listing.html">Children</a></p>
         </div>
       </div>
     </main>

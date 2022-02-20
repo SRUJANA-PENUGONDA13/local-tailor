@@ -1,6 +1,6 @@
 .product-container {
   gap: 2rem;
-  padding: 6rem 1rem 1rem 1rem;
+  /* padding: 6rem 1rem 1rem 1rem; */
 }
 
 .left-nav {
@@ -43,12 +43,6 @@
 
 .products-header {
   padding-bottom: 1rem;
-}
-
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: 2rem;
 }
 
 .product-body .item-img {

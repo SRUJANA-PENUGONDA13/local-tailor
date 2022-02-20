@@ -48,6 +48,7 @@
 .search-bar {
   outline: none;
   border: none;
+  font-size: 0.9rem;
 }
 .main-container {
   align-items: center;
@@ -126,4 +127,8 @@ footer li a i {
   color: var(--text--primary--color);
   font-size: 1.5rem;
   padding: 0px 1.5rem;
+}
+
+.categorie a {
+  color: var(--text--primary--color);
 }

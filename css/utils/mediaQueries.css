@@ -49,8 +49,9 @@
     align-items: center;
   }
 
-  .cart-container {
-    padding-top: 10rem !important;
+  .cart-container,
+  .wishlist-container {
+    padding-top: 11rem !important;
     place-items: center;
   }
 

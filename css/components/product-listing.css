@@ -45,12 +45,6 @@
   padding-bottom: 1rem;
 }
 
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: 2rem;
-}
-
 .product-body .item-img {
   height: 25rem;
 }

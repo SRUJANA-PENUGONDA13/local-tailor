@@ -16,7 +16,7 @@
 }
 
 .cart-body .item-img {
-  height: 14rem;
+  height: 16rem;
 }
 
 .cart-card-container {
@@ -29,8 +29,12 @@
   gap: 0.5rem;
 }
 
+.cart-card-container .add-to-wishlist {
+  background-color: lightgray;
+  color: var(--primary--color);
+}
 .remove-from-cart {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .cart-price-details {

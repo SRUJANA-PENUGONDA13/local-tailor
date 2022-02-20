@@ -127,3 +127,7 @@ footer li a i {
   font-size: 1.5rem;
   padding: 0px 1.5rem;
 }
+
+.categorie a {
+  color: var(--text--primary--color);
+}

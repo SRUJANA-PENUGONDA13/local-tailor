@@ -1,0 +1,72 @@
+.product-container {
+  gap: 2rem;
+  padding: 6rem 1rem 1rem 1rem;
+}
+
+.left-nav {
+  height: 38rem;
+  width: 18rem;
+  padding: 2rem;
+  gap: 1rem;
+  letter-spacing: 0.03rem;
+  color: var(--text--primary--color);
+  position: sticky;
+  top: 6rem;
+  background-color: var(--primary--color);
+}
+
+.filter-header {
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.slider-number {
+  justify-content: space-between;
+}
+
+.main-body {
+  width: 100%;
+}
+
+.filters-btn {
+  font-size: 1.3rem;
+  color: var(--text--primary--color);
+  display: none;
+}
+
+.tailor-container,
+.category-container,
+.rating-container {
+  gap: 0.5rem;
+  font-size: larger;
+}
+
+.products-header {
+  padding-bottom: 1rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.item-img {
+  height: 25rem;
+}
+
+.filter-btn {
+  color: var(--primary--color);
+  font-size: 1rem;
+  display: none;
+}
+
+.heart-btn {
+  position: absolute;
+  top: 10px;
+  border: none;
+  right: 10px;
+}
+.heart-btn .fa-heart {
+  color: red;
+}

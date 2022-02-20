@@ -1,3 +1,15 @@
+body {
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h5,
+h3 {
+  padding: 0px;
+  margin: 0px;
+}
 .text-decoration-none {
   text-decoration: none;
 }
@@ -5,9 +17,8 @@
 .flex-center-box {
   align-items: center;
   justify-content: center;
-  height: 80vh;
-  /* background-color: #7e5330; #7c431b #7e5330 */
 }
+
 .centered-box {
   width: 24rem;
   border: 2px solid var(--text--primary--color);
@@ -17,26 +28,32 @@
   color: var(--primary--color);
   background-color: var(--centered--box-color);
 }
+
 .input-field {
   border: 1px solid var(--primary--color);
   width: 20rem;
 }
+
 .account-link {
   text-align: center;
   color: var(--primary--color);
 }
+
 .primary-btn {
   color: var(--text--primary--color);
   background-color: var(--primary--color);
   text-align: center;
   font-size: 1.3rem;
 }
+
 .box-header {
   text-align: center;
 }
+
 .box-body {
   gap: 1rem;
 }
+
 .field {
   font-size: 1.2rem;
   font-weight: 700;

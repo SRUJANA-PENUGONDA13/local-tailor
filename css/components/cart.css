@@ -1,7 +1,9 @@
-.cart-container {
-  display: grid;
-  grid-template-rows: 1fr 8fr;
+/* .cart-container {
   padding-top: 6rem;
+} */
+.cart-body {
+  display: grid;
+  grid-template-rows: 8fr;
   width: 100%;
 }
 .cart-header {
@@ -17,6 +19,10 @@
 
 .cart-body .item-img {
   height: 16rem;
+}
+
+.cart-body .horizontal-card {
+  width: fit-content;
 }
 
 .cart-card-container {

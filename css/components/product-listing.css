@@ -66,5 +66,5 @@
 }
 
 .heart-btn .fa-heart {
-  color: red;
+  color: var(--heart-icon-color);
 }

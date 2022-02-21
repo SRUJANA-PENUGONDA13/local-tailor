@@ -93,3 +93,7 @@ footer li a i {
   font-size: 1.5rem;
   padding: 0px 1.5rem;
 }
+
+.nav-right-sec .circle {
+  background-color: unset;
+}

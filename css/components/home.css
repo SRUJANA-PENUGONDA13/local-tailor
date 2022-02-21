@@ -7,6 +7,7 @@
   width: 100%;
   position: fixed;
 }
+
 .nav-body {
   background-color: var(--primary--color);
   padding: 5px 5rem;
@@ -14,21 +15,26 @@
   height: 100%;
   justify-content: space-between;
 }
+
 .nav-right-sec {
   margin: 0px;
 }
+
 .nav-right-sec a {
   color: var(--text--primary--color);
 }
+
 .brand-name {
   font-family: "Dancing Script", cursive;
   font-size: 2.5rem;
   color: var(--text--primary--color);
 }
+
 .badge-pos-top-right {
   top: -1.3rem;
   right: -0.7rem;
 }
+
 .nav-mid-sec,
 .nav-mobile-mid-sec {
   border: 1px solid var(--nav--input--border);
@@ -38,38 +44,46 @@
   background-color: var(--text--primary--color);
   width: 20rem;
 }
+
 .nav-mobile-mid-sec {
   width: 90%;
   padding: 10px;
 }
+
 .search-icon {
   color: var(--primary--color);
 }
+
 .search-bar {
   outline: none;
   border: none;
   font-size: 0.9rem;
 }
+
 .main-container {
   align-items: center;
   z-index: 1;
   padding: 8rem 8rem 6rem 8rem;
   gap: 1rem;
 }
+
 .media {
   position: relative;
   align-items: center;
 }
+
 .media-image {
   width: 100%;
   height: 30rem;
 }
+
 .media-content {
   font-size: 1.5rem;
   align-items: center;
   flex-wrap: wrap;
   color: var(--primary--color);
 }
+
 .shp-now-btn {
   position: relative;
   font-size: 1.2rem;
@@ -78,15 +92,19 @@
   padding: 10px;
   border-radius: 10px;
 }
+
 .shp-now-btn a {
   color: var(--text--primary--color);
 }
+
 .title {
   font-size: larger;
 }
+
 .featured-categories {
   align-items: center;
 }
+
 .categories {
   font-size: 2rem;
   align-items: center;
@@ -95,6 +113,7 @@
   flex-wrap: wrap;
   gap: 4rem;
 }
+
 .categorie {
   border-radius: 50%;
   height: 10rem;
@@ -105,28 +124,6 @@
   border: 1px solid black;
   color: var(--text--primary--color);
   background-color: var(--primary--color);
-}
-
-.footer-sec {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 0px;
-  height: 5rem;
-  color: var(--text--primary--color);
-  padding: 10px;
-  background-color: var(--primary--color);
-}
-footer ul {
-  list-style: none;
-}
-footer li {
-  display: inline;
-}
-footer li a i {
-  color: var(--text--primary--color);
-  font-size: 1.5rem;
-  padding: 0px 1.5rem;
 }
 
 .categorie a {

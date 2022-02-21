@@ -32,7 +32,5 @@ Open your favorite code editor and run locally!
 
 ## Demo
 
-https://user-images.githubusercontent.com/72279128/154862841-96e2e7a5-a976-4ce5-b86a-ef08515a70e9.mp4
-
-
+https://user-images.githubusercontent.com/72279128/154902927-1c87dd40-f1b0-46cd-8a2c-32342f0927ae.mp4
 

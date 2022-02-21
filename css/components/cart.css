@@ -1,11 +1,9 @@
-/* .cart-container {
-  padding-top: 6rem;
-} */
 .cart-body {
   display: grid;
   grid-template-rows: 8fr;
   width: 100%;
 }
+
 .cart-header {
   text-align: center;
   padding: 1rem;
